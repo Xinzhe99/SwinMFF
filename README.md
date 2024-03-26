@@ -1,5 +1,7 @@
 # SwinMFF
-Code for "SwinMFF: Pure Transformer for End-to-End  Multi-focus Image Fusion"
+Official code for "SwinMFF: Revitalizing and Setting a Benchmark for End-to-End Multi-Focus Image Fusion"
+![image](https://github.com/Xinzhe99/SwinMFF/assets/113503163/16ae7254-b06a-47cd-ac40-3b0bc4277653)
+[value_all_lytro_dataset.pdf](https://github.com/Xinzhe99/SwinMFF/files/14759279/value_all_lytro_dataset.pdf)
 ## Train
 ### Make dataset for training SwinMFF
 1. Download [DUTS](https://pan.baidu.com/s/1XCCbFi-uNNXWlig0CNBoIA?pwd=cite)
@@ -7,6 +9,7 @@ Code for "SwinMFF: Pure Transformer for End-to-End  Multi-focus Image Fusion"
 3. Run the following code to get the data set needed for training
 `python .\make_dataset.py --mode='TR'`
 `python .\make_dataset.py --mode='TE'`
+
 ### Start to train
 `python .\train.py`
 ## Test
