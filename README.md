@@ -1,6 +1,9 @@
 # SwinMFF
 Official code for "SwinMFF: Revitalizing and Setting a Benchmark for End-to-End Multi-Focus Image Fusion"
 ![image](https://github.com/Xinzhe99/SwinMFF/assets/113503163/03ba666e-d66d-423e-9bc3-27642538aa41)
+![image](https://github.com/Xinzhe99/SwinMFF/assets/113503163/4c14f8e9-7639-4ac5-8551-270bdd74c427)
+![image](https://github.com/Xinzhe99/SwinMFF/assets/113503163/36f4f5fe-cedf-4b40-a7ff-7115dd91f5f2)
+
 | Method      | *EI*     | *Q^{ab/f}* | *STD*    | *SF*     | *AVG*    | *MI*     | *EN*     | *VIF*    |
 |-------------|----------|------------|----------|----------|----------|----------|----------|----------|
 | DWT         | 70.7942  | 0.6850     | 57.2776  | 19.3342  | 6.8336   | **15.0872** | 7.5436   | 1.1114   |
