@@ -1,7 +1,10 @@
 # SwinMFF
 Official code for "SwinMFF: Revitalizing and Setting a Benchmark for End-to-End Multi-Focus Image Fusion"
-![image](https://github.com/Xinzhe99/SwinMFF/assets/113503163/03ba666e-d66d-423e-9bc3-27642538aa41)
+Lytro:
+![image](https://github.com/Xinzhe99/SwinMFF/assets/113503163/b9948ba1-6021-44f3-b004-5972331b7439)
+MFFW:
 ![image](https://github.com/Xinzhe99/SwinMFF/assets/113503163/4c14f8e9-7639-4ac5-8551-270bdd74c427)
+MFI-WHU:
 ![image](https://github.com/Xinzhe99/SwinMFF/assets/113503163/36f4f5fe-cedf-4b40-a7ff-7115dd91f5f2)
 
 | Method      | *EI*     | *Q^{ab/f}* | *STD*    | *SF*     | *AVG*    | *MI*     | *EN*     | *VIF*    |
@@ -45,6 +48,28 @@ Official code for "SwinMFF: Revitalizing and Setting a Benchmark for End-to-End 
 | SwinFusion   | 2022 | IEEE/CAA JAS       | CNN & Transformer | 62.8130 | 0.6597     | 56.8142 | 16.6430 | 5.9862  | 15.0476 | 7.5238  | 1.0685  |
 | FusionDiff   | 2024 | ESWA               | Diffusion Model   | 67.4911 | 0.6744     | 56.1372 | 18.8483 | 6.5325  | 14.9817 | 7.4909  | 1.0448  |
 | Proposed     | 2024 | TBD | Transformer       | 72.1691 | 0.6824     | 57.8876 | 19.7382 | 6.9511  | 15.0801 | 7.5400  | 1.1771  |
+
+Ranking in Lytro：
+| Method        | *EI* | *Q^{ab/f}* | *MI* | *VIF* | *SF* | *AVG* | *EN* | *STD* | *Average* | *Ranking* |
+|---------------|------|------------|------|-------|------|-------|------|-------|-----------|-----------|
+| IFCNN-MAX     | 2    | 2          | 2    | 2     | 2    | 2     | 2    | 2     | 2.00      | 2         |
+| U2Fusion      | 7    | 7          | 7    | 7     | 7    | 7     | 7    | 6     | 6.88      | 7         |
+| SDNet         | 6    | 5          | 5    | 5     | 6    | 5     | 5    | 7     | 5.50      | 6         |
+| MFF-GAN       | 4    | 6          | 6    | 4     | 4    | 6     | 6    | 5     | 5.13      | 5         |
+| SwinFusion    | 5    | 4          | 3    | 6     | 5    | 3     | 3    | 3     | 4.00      | 4         |
+| FusionDiff    | 3    | 3          | 4    | 3     | 3    | 4     | 4    | 4     | 3.50      | 3         |
+| Proposed      | 1    | 1          | 1    | 1     | 1    | 1     | 1    | 1     | 1.00      | 1         |
+
+Ranking in MFFW:
+| Method        | *EI* | *Q^{ab/f}* | *MI* | *VIF* | *SF* | *AVG* | *EN* | *STD* | *Average* | *Ranking* |
+|---------------|------|------------|------|-------|------|-------|------|-------|-----------|-----------|
+| IFCNN-MAX     | 4    | 4          | 2    | 6     | 4    | 4     | 2    | 5     | 3.88      | 3         |
+| U2Fusion      | 7    | 5          | 5    | 5     | 7    | 7     | 5    | 7     | 6.00      | 7         |
+| SDNet         | 3    | 6          | 7    | 4     | 2    | 3     | 7    | 4     | 4.50      | 5         |
+| MFF-GAN       | 2    | 7          | 1    | 2     | 1    | 2     | 1    | 3     | 2.38      | 2         |
+| SwinFusion    | 5    | 2          | 4    | 3     | 6    | 5     | 4    | 2     | 3.88      | 4         |
+| FusionDiff    | 6    | 1          | 6    | 7     | 5    | 6     | 6    | 6     | 5.38      | 6         |
+| Proposed      | 1    | 3          | 3    | 1     | 3    | 1     | 3    | 1     | 2.00      | 1         |
 
 ## Train
 ### Make dataset for training SwinMFF
