@@ -67,7 +67,7 @@ Download Weights in [Baidu](https://pan.baidu.com/s/15-5_TzVa-ZypyceiMSyMkg?pwd=
 ### Others
 `python .\predict.py --dataset_path='your path' --model_path='your path' --is_gray=False/True`
 ## Results of various methods
-Result of various methods compared in papar can be download in [Baidu]([https://pan.baidu.com/s/15-5_TzVa-ZypyceiMSyMkg?pwd=cite](https://pan.baidu.com/s/13pxQzkF1wXnJ1paZNFhwwg?pwd=cite))
+Result of various methods compared in papar can be download in [Baidu](https://pan.baidu.com/s/15-5_TzVa-ZypyceiMSyMkg?pwd=cite](https://pan.baidu.com/s/13pxQzkF1wXnJ1paZNFhwwg?pwd=cite)
 # Acknowledgements
 The research was supported by the Hainan Provincial Joint Project of Sanya Yazhou Bay Science and Technology City (No: 2021JJLH0079), Innovational Fund for Scientific and Technological Personnel of Hainan Province (NO. KJRC2023D19), and the Hainan Provincial Joint Project of Sanya Yazhou Bay Science and Technology City (No. 2021CXLH0020). Thanks for help by Hainan Provincial Observatory of Ecological Environment and Fishery Resource in Yazhou Bay. Also, we want to thank Chloe Alex Schaff for her contribution in polishing the article.
 
