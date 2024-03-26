@@ -228,10 +228,11 @@ class SwinMFF(nn.Module):
         B, C, H, W = ori_x1.shape
         out = out.permute(0, 2, 1).view(B, 1, H, W)  # [B,1,H,W]
         return out
-
+# #
 # input1 = torch.rand(1, 1, 256, 256)
 # input2 = torch.rand(1, 1, 256, 256)
-# model=SwinMFF()
-# print('Number of models parameters: {}'.format(sum([p.data.nelement() for p in model.parameters()])))
+# model=SwinMFIF_Net()
+# # print('Number of models parameters: {}'.format(sum([p.data.nelement() for p in model.parameters()])))
 # out=model(input1,input2)
+# #
 # print(out.shape)
