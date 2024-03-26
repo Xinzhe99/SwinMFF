@@ -57,7 +57,7 @@ Official code for "SwinMFF: Revitalizing and Setting a Benchmark for End-to-End 
 ### Start to train
 `python .\train.py`
 ## Test
-1. Download Weights in [Baidu](https://pan.baidu.com/s/15-5_TzVa-ZypyceiMSyMkg?pwd=cite) and put in the project path
+Download Weights in [Baidu](https://pan.baidu.com/s/15-5_TzVa-ZypyceiMSyMkg?pwd=cite) and put in the project path
 ### Lytro
 `python .\predict.py --dataset_path='./assets/Lytro' --model_path='./checkpoint.ckpt' --is_gray=False`
 ### MFFW
@@ -66,6 +66,8 @@ Official code for "SwinMFF: Revitalizing and Setting a Benchmark for End-to-End 
 `python .\predict.py --dataset_path='./assets/MFI-WHU' --model_path='./checkpoint.ckpt' --is_gray=False`
 ### Others
 `python .\predict.py --dataset_path='your path' --model_path='your path' --is_gray=False/True`
+## Results of various methods
+Result of various methods compared in papar can be download in [Baidu]([https://pan.baidu.com/s/15-5_TzVa-ZypyceiMSyMkg?pwd=cite](https://pan.baidu.com/s/13pxQzkF1wXnJ1paZNFhwwg?pwd=cite))
 # Acknowledgements
 The research was supported by the Hainan Provincial Joint Project of Sanya Yazhou Bay Science and Technology City (No: 2021JJLH0079), Innovational Fund for Scientific and Technological Personnel of Hainan Province (NO. KJRC2023D19), and the Hainan Provincial Joint Project of Sanya Yazhou Bay Science and Technology City (No. 2021CXLH0020). Thanks for help by Hainan Provincial Observatory of Ecological Environment and Fishery Resource in Yazhou Bay. Also, we want to thank Chloe Alex Schaff for her contribution in polishing the article.
 
