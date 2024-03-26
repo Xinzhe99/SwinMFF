@@ -1,7 +1,9 @@
 # SwinMFF
 Official code for "SwinMFF: Revitalizing and Setting a Benchmark for End-to-End Multi-Focus Image Fusion"
 ![image](https://github.com/Xinzhe99/SwinMFF/assets/113503163/16ae7254-b06a-47cd-ac40-3b0bc4277653)
-[value_all_lytro_dataset.pdf](https://github.com/Xinzhe99/SwinMFF/files/14759279/value_all_lytro_dataset.pdf)
+![image](https://github.com/Xinzhe99/SwinMFF/assets/113503163/03ba666e-d66d-423e-9bc3-27642538aa41)
+![image](https://github.com/Xinzhe99/SwinMFF/assets/113503163/8db54f22-ee10-48da-a859-1f477098e34a)
+
 ## Train
 ### Make dataset for training SwinMFF
 1. Download [DUTS](https://pan.baidu.com/s/1XCCbFi-uNNXWlig0CNBoIA?pwd=cite)
