@@ -66,7 +66,8 @@ Download Weights in [Baidu](https://pan.baidu.com/s/15-5_TzVa-ZypyceiMSyMkg?pwd=
 `python .\predict.py --dataset_path='./assets/MFI-WHU' --model_path='./checkpoint.ckpt' --is_gray=False`
 ### Others
 `python .\predict.py --dataset_path='your path' --model_path='your path' --is_gray=False/True`
-## Results of various methods| Method     | Download link                                          |
+## Results of various methods
+| Method     | Download link                                          |
 |------------|--------------------------------------------------------|
 | CNN        | [https://github.com/yuliu316316/CNN-Fusion](https://github.com/yuliu316316/CNN-Fusion) |
 | ECNN       | [https://github.com/mostafaaminnaji/ECNN](https://github.com/mostafaaminnaji/ECNN) |
