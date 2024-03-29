@@ -99,6 +99,7 @@ Ranking in MFI-WHU:
 1. Download [DUTS](https://pan.baidu.com/s/1XCCbFi-uNNXWlig0CNBoIA?pwd=cite)
 2. Extract it to the project path
 3. Run the following code to get the data set needed for training
+
 `python .\make_dataset.py --mode='TR'`
 
 `python .\make_dataset.py --mode='TE'`
