@@ -43,7 +43,7 @@ MFI-WHU:
 | MFIF-GAN     | 2021 | SPIC               | GAN               | 71.0395 | 0.7029     | 57.5430 | 19.4370 | 6.8560  | 15.0690 | 7.5345  | 1.1393  |
 | MSFIN        | 2021 | IEEE TIM           | CNN               | 71.0914 | 0.7045     | 57.5642 | 19.4438 | 6.8602  | 15.0695 | 7.5348  | 1.1420  |
 | ZMFF         | 2023 | Information Fusion | DIP               | 70.8298 | 0.6635     | 57.0347 | 18.9707 | 6.8045  | 15.0735 | 7.5368  | 1.1331  |
-| Proposed     | 2024 | Information Fusion | Transformer       | 72.1691 | 0.6824     | 57.8876 | 19.7382 | 6.9511  | 15.0801 | 7.5400  | 1.1771  |
+| Proposed     | 2024 | TBD | Transformer       | 72.1691 | 0.6824     | 57.8876 | 19.7382 | 6.9511  | 15.0801 | 7.5400  | 1.1771  |
 
 
 | Method       | Year | Journal/Conference | Network           | *EI*    | *Q^{ab/f}* | *STD*   | *SF*    | *AVG*   | *MI*    | *EN*    | *VIF*   |
