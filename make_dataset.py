@@ -81,19 +81,19 @@ def trans(args,input_path1,input_path2,mode):
     Synthesized_imgA_5 = ImageChops.add(Part_imageA1_5, Part_imageA2_5)
     Synthesized_imgB_5 = ImageChops.add(Part_imageB1_5, Part_imageB2_5)
 
-    result_root1 = os.path.join(os.getcwd(), 'DUTS_{}'.format(str(args.img_size)),mode,'sourceB\\')#5个模糊度5张
-    result_root2 = os.path.join(os.getcwd(), 'DUTS_{}'.format(str(args.img_size)),mode,'sourceA\\')#5个模糊度5张
-    result_root3 = os.path.join(os.getcwd(), 'DUTS_{}'.format(str(args.img_size)),mode,'decisionmap\\')#决策图保存5张
-    result_root4 = os.path.join(os.getcwd(), 'DUTS_{}'.format(str(args.img_size)),mode,'groundtruth\\')#真实图保存5张
+    result_root1 = os.path.join(os.getcwd(), 'DUTS_{}'.format(str(args.img_size)),mode,'sourceB')#5个模糊度5张
+    result_root2 = os.path.join(os.getcwd(), 'DUTS_{}'.format(str(args.img_size)),mode,'sourceA')#5个模糊度5张
+    result_root3 = os.path.join(os.getcwd(), 'DUTS_{}'.format(str(args.img_size)),mode,'decisionmap')#决策图保存5张
+    result_root4 = os.path.join(os.getcwd(), 'DUTS_{}'.format(str(args.img_size)),mode,'groundtruth')#真实图保存5张
 
     #Synthesized_imgA save path
-    save_rootA_1 = result_root1 + os.path.split(input_path1)[1].split('.')[0]
+    save_rootA_1 = os.path.join(result_root1,os.path.split(input_path1)[1].split('.')[0])
     #Synthesized_imgB save path
-    save_rootB_1 = result_root2 + os.path.split(input_path1)[1].split('.')[0]
+    save_rootB_1 = os.path.join(result_root2,os.path.split(input_path1)[1].split('.')[0])
     #mask save path
-    save_rootC_1 = result_root3 + os.path.split(input_path1)[1].split('.')[0]
+    save_rootC_1 = os.path.join(result_root3,os.path.split(input_path1)[1].split('.')[0])
     #ori save path
-    save_rootD_1 = result_root4 + os.path.split(input_path1)[1].split('.')[0]
+    save_rootD_1 = os.path.join(result_root4,os.path.split(input_path1)[1].split('.')[0])
 
     Synthesized_imgA_1.save(save_rootA_1 + '_1.jpg')
     Synthesized_imgA_2.save(save_rootA_1 + '_2.jpg')
@@ -158,7 +158,7 @@ def main(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Make dataset for training')
     parser.add_argument('--mode', type=str,default='TR', help='TE/TR,Correspond to making training set or verification set respectively.')
-    parser.add_argument('--data_root', type=str, default='./DUTS',help='DUTS path')
+    parser.add_argument('--data_root', type=str, default=r'/media/user/68fdd01e-c642-4deb-9661-23b76592afb1/xxz/datasets/DUTS',help='DUTS path')
     parser.add_argument('--img_size', type=int, default=256)
     parser.add_argument('--out_dir_name', type=str, default='DUTS_256')
     args = parser.parse_args()
