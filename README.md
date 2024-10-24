@@ -1,5 +1,5 @@
 ![image](https://github.com/user-attachments/assets/a219c253-7c14-4e35-a261-858b7c1bbcf2)# SwinMFF
-Official code for "SwinMFF: Revitalizing and Setting a Benchmark for End-to-End Multi-Focus Image Fusion"
+Official code for "SwinMFF: toward high-fidelity end-to-end multi-focus image fusion via swin transformer-based network"
 Lytro:
 ![image](https://github.com/Xinzhe99/SwinMFF/assets/113503163/b9948ba1-6021-44f3-b004-5972331b7439)
 MFFW:
@@ -103,3 +103,13 @@ Includes traditional methods download in [https://github.com/yuliu316316/MFIF](h
 The research was supported by the Hainan Provincial Joint Project of Sanya Yazhou Bay Science and Technology City (No: 2021JJLH0079), Innovational Fund for Scientific and Technological Personnel of Hainan Province (NO. KJRC2023D19), and the Hainan Provincial Joint Project of Sanya Yazhou Bay Science and Technology City (No. 2021CXLH0020). Thanks for help by Hainan Provincial Observatory of Ecological Environment and Fishery Resource in Yazhou Bay. Also, we want to thank Chloe Alex Schaff for her contribution in polishing the article.
 
 # If our work is helpful to you, please help cite our work
+```
+@article{xie2024swinmff,
+  title={SwinMFF: toward high-fidelity end-to-end multi-focus image fusion via swin transformer-based network},
+  author={Xie, Xinzhe and Guo, Buyu and Li, Peiliang and He, Shuangyan and Zhou, Sangjun},
+  journal={The Visual Computer},
+  pages={1--24},
+  year={2024},
+  publisher={Springer}
+}
+```
