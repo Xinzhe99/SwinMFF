@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/a219c253-7c14-4e35-a261-858b7c1bbcf2)# SwinMFF
+# SwinMFF
 Official code for "SwinMFF: toward high-fidelity end-to-end multi-focus image fusion via swin transformer-based network"
 Lytro:
 ![image](https://github.com/Xinzhe99/SwinMFF/assets/113503163/b9948ba1-6021-44f3-b004-5972331b7439)
