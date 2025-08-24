@@ -1,11 +1,5 @@
 # SwinMFF
 Official code for "SwinMFF: toward high-fidelity end-to-end multi-focus image fusion via swin transformer-based network"
-Lytro:
-![image](https://github.com/Xinzhe99/SwinMFF/assets/113503163/b9948ba1-6021-44f3-b004-5972331b7439)
-MFFW:
-![image](https://github.com/Xinzhe99/SwinMFF/assets/113503163/4c14f8e9-7639-4ac5-8551-270bdd74c427)
-MFI-WHU:
-![image](https://github.com/Xinzhe99/SwinMFF/assets/113503163/fc924cee-a98f-4c59-a559-630a03327a87)
 
 ## Train
 ### Make dataset for training SwinMFF
