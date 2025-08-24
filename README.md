@@ -1,35 +1,84 @@
-# SwinMFF
-Official code for "SwinMFF: toward high-fidelity end-to-end multi-focus image fusion via swin transformer-based network"
+<div align="center">
 
-## Train
-### Make dataset for training SwinMFF
-1. Download [DUTS](https://pan.baidu.com/s/1XCCbFi-uNNXWlig0CNBoIA?pwd=cite)
-2. Extract it to the project path
-3. Run the following code to get the data set needed for training
+# 🔬 SwinMFF
 
-`python .\make_dataset.py --mode='TR'`
+**Toward High-Fidelity End-to-End Multi-Focus Image Fusion via Swin Transformer-Based Network**
 
-`python .\make_dataset.py --mode='TE'`
+[![Paper](https://img.shields.io/badge/Paper-The%20Visual%20Computer-blue)](https://link.springer.com/article/10.1007/s00371-024-03637-3)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-1.8+-red.svg)](https://pytorch.org/)
 
-### Start to train
-`python .\train.py`
-## Test
-Download Weights in [Baidu](https://pan.baidu.com/s/15-5_TzVa-ZypyceiMSyMkg?pwd=cite) and put in the project path
-### Lytro
-`python .\predict.py --dataset_path='./assets/Lytro' --model_path='./checkpoint.ckpt' --is_gray=False`
-### MFFW
-`python .\predict.py --dataset_path='./assets/MFFW' --model_path='./checkpoint.ckpt' --is_gray=False`
-### MFI-WHU
-`python .\predict.py --dataset_path='./assets/MFI-WHU' --model_path='./checkpoint.ckpt' --is_gray=False`
-### Others
-`python .\predict.py --dataset_path='your path' --model_path='your path' --is_gray=False/True`
+*Official implementation of SwinMFF for multi-focus image fusion*
 
-Result of various learning-based methods compared can be download in [Baidu]([https://pan.baidu.com/s/15-5_TzVa-ZypyceiMSyMkg?pwd=cite](https://pan.baidu.com/s/1aDmgPnbUwElQ-t_4lQtEww?pwd=cite))
+</div>
 
-Includes traditional methods download in [https://github.com/yuliu316316/MFIF](https://github.com/yuliu316316/MFIF)
+---
 
-# If our work is helpful to you, please help cite our work
+## 🚀 Quick Start
+
+### 📊 Dataset Preparation
+
+> **Step 1:** Download the DUTS dataset
+
+[![DUTS Dataset](https://img.shields.io/badge/Download-DUTS%20Dataset-orange)](https://pan.baidu.com/s/1XCCbFi-uNNXWlig0CNBoIA?pwd=cite)
+
+> **Step 2:** Extract the dataset to your project directory
+
+> **Step 3:** Generate training and testing datasets
+
+```bash
+# Generate training dataset
+python ./make_dataset.py --mode='TR'
+
+# Generate testing dataset
+python ./make_dataset.py --mode='TE'
 ```
+
+### 🏋️ Training
+
+Start training with the following command:
+
+```bash
+python ./train.py
+```
+
+> 💡 **Tip:** Make sure you have sufficient GPU memory for training. The model requires at least 8GB VRAM.
+## 🧪 Testing & Evaluation
+
+### 📥 Download Pre-trained Weights
+
+[![Pre-trained Weights](https://img.shields.io/badge/Download-Pre--trained%20Weights-success)](https://pan.baidu.com/s/15-5_TzVa-ZypyceiMSyMkg?pwd=cite)
+
+> Download the pre-trained weights and place them in your project directory
+
+### 🎯 Inference on Different Datasets
+
+| Dataset | Command | Description |
+|---------|---------|-------------|
+| **Lytro** | `python ./predict.py --dataset_path='./assets/Lytro' --model_path='./checkpoint.ckpt' --is_gray=False` | Light field camera dataset |
+| **MFFW** | `python ./predict.py --dataset_path='./assets/MFFW' --model_path='./checkpoint.ckpt' --is_gray=False` | Multi-focus fusion dataset |
+| **MFI-WHU** | `python ./predict.py --dataset_path='./assets/MFI-WHU' --model_path='./checkpoint.ckpt' --is_gray=False` | Wuhan University dataset |
+| **Custom** | `python ./predict.py --dataset_path='your_path' --model_path='your_path' --is_gray=False/True` | Your own dataset |
+
+### 📈 Benchmark Results
+
+> 📊 **Comparison Results:** Download comprehensive comparison results with various learning-based methods
+
+[![Benchmark Results](https://img.shields.io/badge/Download-Benchmark%20Results-purple)](https://pan.baidu.com/s/1aDmgPnbUwElQ-t_4lQtEww?pwd=cite)
+
+> 🔗 **Traditional Methods:** For traditional method comparisons, visit the [MFIF repository](https://github.com/yuliu316316/MFIF)
+
+---
+
+## 📝 Citation
+
+If you find our work helpful in your research, please consider citing our paper:
+
+<details>
+<summary>📋 <strong>BibTeX Citation</strong></summary>
+
+```bibtex
 @article{xie2024swinmff,
   title={SwinMFF: toward high-fidelity end-to-end multi-focus image fusion via swin transformer-based network},
   author={Xie, Xinzhe and Guo, Buyu and Li, Peiliang and He, Shuangyan and Zhou, Sangjun},
@@ -39,3 +88,11 @@ Includes traditional methods download in [https://github.com/yuliu316316/MFIF](h
   publisher={Springer}
 }
 ```
+
+<div align="center">
+
+**⭐ If you find this project helpful, please consider giving it a star! ⭐**
+
+*Made with ❤️ by the SwinMFF Team*
+
+</div>
